@@ -1,0 +1,23 @@
+body {
+	background: linear_gradient(#fff, #d33);
+	position: fixed;
+}
+
+html{
+	min-height: 100%;
+	min-width: 100%;
+}
+
+h1 {
+	color: #400;
+}
+
+#primary_h {
+	text-align: center;
+}
+
+#primary_h_undertext {
+	text-align: center;
+	position: relative;
+	left: -50px;
+}
