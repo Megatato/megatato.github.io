@@ -1,6 +1,7 @@
 body {
-	background: linear-gradient("#fff", "#d33");
-	position: fixed;
+	background-image: linear-gradient(#fff, #d33);
+	position:fixed;
+	min-width: 100%
 }
 
 html{
@@ -9,7 +10,7 @@ html{
 }
 
 h1 {
-	color: "#400";
+	color: #400;
 }
 
 #primary_h {
@@ -18,6 +19,6 @@ h1 {
 
 #primary_h_undertext {
 	text-align: center;
-	position: relative;
-	left: -50px;
+
+	font-size: 12.5px;
 }
