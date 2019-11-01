@@ -1,5 +1,5 @@
 body {
-	background: linear_gradient(#fff, #d33);
+	background: linear-gradient("#fff", "#d33");
 	position: fixed;
 }
 
@@ -9,7 +9,7 @@ html{
 }
 
 h1 {
-	color: #400;
+	color: "#400";
 }
 
 #primary_h {
