@@ -1,5 +1,5 @@
 body {
-	background-image: linear-gradient(#bef, #3d3);
+	background-image: linear-gradient(#054, #256);
 	position:fixed;
 	min-width: 100%
 }
@@ -9,8 +9,9 @@ html{
 	min-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, dt, dd{
-	color: #003;
+h1, h2, h3, h4, h5, h6, p, dt, dd, hr{
+	color: #def;
+	font-family: Arial, sans-serif;
 }
 
 
@@ -25,9 +26,60 @@ h1, h2, h3, h4, h5, h6, p, dt, dd{
 
 #profile_widget-occupation {
 	font-size: 20px;
-	color: #558;
 }
 
 #motto {
-	font-size: 14px;
+	font-size: 22px;
+	font-family: cursive;
+}
+
+#releases {
+	width: 99%;
+	min-height: 150px;
+}
+
+#releases-tic_tac_toe_pp {
+	width: 250px;
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+
+#bottom_bar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0%;
+	background-image: linear-gradient(#004a3a, #032);
+}
+
+#bottom_bar-content {
+	position: relative;
+	left: 1%;
+	width: 98%;
+}
+
+.page_section {
+	background-color: #145;
+}
+
+a:link {
+	color: #49b;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #94b;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7cf;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #fc7;
 }
